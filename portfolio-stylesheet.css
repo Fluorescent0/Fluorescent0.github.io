@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #fbe9d0;
+	background-color: #244855;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -18,7 +18,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
-	background-color: #FFFFFF;
+	background-color: #244855;
 }
 /* Navigation */
 header {
@@ -51,7 +51,7 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	color: #FFFFFF;
+	color: #244855;
 	font-size: 14px;
 	text-align: left;
 	margin-right: 25px;
@@ -68,7 +68,7 @@ ul li:hover a {
 	
 }
 .hero_header {
-	color: #244855;
+	color: #fbe9d0;
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -78,7 +78,7 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-color: #Fbe9d0;
+	background-color: #244855;
 	padding-top: 250px;
 	padding-bottom: 350px;
 	font-size: 30px;
@@ -103,7 +103,7 @@ ul li:hover a {
 /* About Section */
 
 .about_headers {
-	color: #244855;
+	color: #e64833;
 	text-align: center;
 }
 
@@ -117,7 +117,7 @@ ul li:hover a {
 	position: static;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: #A3A3A3;
+	color: #244855;
 	padding-bottom: 25px;
 }	
 
@@ -129,18 +129,20 @@ ul li:hover a {
 	float: left;
 	padding-left: 30px;
 	padding-right: 20px;
-	color: #A3A3A3;
+	color: #244855;
 }
 
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 0px;
+	border-radius: 20px;
+	padding-top: 10px;
 	scroll-behavior: smooth;
 	display: inline-block;
 	background-color: #fbe9d0;
 	margin-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
 }
 /* Stats Gallery */
 .stats {
@@ -151,7 +153,7 @@ ul li:hover a {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #fbe9d0;
+	background-color: #244855;
 	/* [disabled]min-width: 400px;
 */
 	padding-bottom: 85px;
@@ -187,6 +189,8 @@ ul li:hover a {
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border-radius: 30px;
+	margin-bottom: 100px;
 }
 .parallax {
 	color: #FFFFFF;
@@ -211,7 +215,7 @@ ul li:hover a {
 }
 
 .past_works_section {
-	background-color: #fbe9d0;
+	background-color: #244855;
 	padding-top: 35px;
 	padding-bottom: 35px;
 	margin-bottom: 20px;
@@ -219,10 +223,10 @@ ul li:hover a {
 }
 
 .pastwork_text {
-	padding-bottom: 70px;
+	padding-bottom: 100px;
 	padding-top: 15px;
 	margin: auto;
-	color: #244855;
+	color: #90aead;
 	text-align: center;
 	width: 95%;
 }
@@ -233,20 +237,41 @@ ul li:hover a {
   padding-top: 0px;
   padding-bottom: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   max-width: 300px;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
-  background: #f2f2f2;
+  background: #fbe9d0;
+}
+
+.profile_photo {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.name {
+	color: #e64833;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+}
+
+
+.location {
+	color: #244855;
+	font-size: 13px;
+	text-align: center;
 }
 
 .title {
-  color: grey;
-  font-size: 18px;
+  color: #90aead;
+  font-size: 17px;
+  text-align: center;
 }
 
 .details {
-	color: darkgray;
+	color: #244855;
 	font-size: 11px;
 	text-align: center;
 }
@@ -254,7 +279,7 @@ ul li:hover a {
 icon {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: #e64833;
   padding: 3px;
   cursor: pointer;
 }
